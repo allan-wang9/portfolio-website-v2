@@ -4,8 +4,6 @@
 
 **Personal Portfolio V2 (last updated Mar 2025).**
 
----
-
 ## Table of Contents
 
 -   [Summary](#summary)
@@ -17,14 +15,20 @@
 
 ## Summary
 
-Welcome to allanwang.dev, my personal portfolio. In here, you'll find a showcase of my skills, projects, and professional experiences as a Software Engineer. This site is designed to provide a comprehensive overview of my capabilities and passion for software development. It serves as a dynamic resume and a platform to connect with others in the tech community.
+Welcome to allanwang.dev, my personal portfolio. In here, you'll find a showcase of my skills, work experience, enterprise contributions and personal projects. This website is designed to provide a comprehensive overview of my capabilities and serves as a dynamic resume and a platform to connect with others in the tech community. Thanks for stopping by :)
 
 ## Installation
 
 1.  **Clone the repository**
-
+    ```bash
+    git clone https://github.com/allan-wang9/portfolio-website-v2.git
+    ```
 2.  **Navigate to your project directory**
-3. **Install dependencies:**
+    ```bash
+    cd portfolio-website-v2
+    ```
+    
+3.  **Install dependencies:**
 
     ```bash
     npm install
@@ -39,14 +43,12 @@ Welcome to allanwang.dev, my personal portfolio. In here, you'll find a showcase
 5.  **Open your browser and navigate to `http://localhost:5173` (or the port specified by your development environment).**
 
 ## Technologies
-
-* **Frontend:**
-    * React
-    * Tailwind CSS
-    * TypeScript
-    * Vite
-    * NPM
-    * Netlify
+    React
+    Tailwind CSS
+    JavaScript
+    Vite
+    NPM
+    Netlify
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
