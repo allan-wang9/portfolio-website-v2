@@ -27,7 +27,7 @@ export const workExperience = [
         company: 'Trend Micro',
         role: 'Software Engineer',
         duration: 'May 2024 - Present',
-        desc: "At Trend Micro, I am currently adding new features to Trend Vision One™. I am using TypeScript, Axios and both React and Vue.js to build new reusable frontend components. Some interfaces I've implemented include user modals, advanced tables and custom notification alerts. I have also implemented backend report sharing services using Golang, Gin Framework, MongoDB and AWS services (SES, S3) to increase user engagement across several assessment sharing applications.",
+        desc: "At Trend Micro, I am currently adding new features to Trend Vision One™. I am using TypeScript and utilizing both React and Vue.js to create new reusable frontend components. Some interfaces I've implemented include user modals, advanced tables and custom notification alerts. I have also created backend report sharing services using Golang, Gin Framework, MongoDB and AWS services (SES, S3) to increase user engagement across several assessment sharing applications.",
         icon: '/assets/trend.svg',
     },
     {
@@ -59,7 +59,7 @@ export const workExperience = [
         company: 'Telesat',
         role: 'Software Developer Intern',
         duration: 'May 2022 - Dec 2022',
-        desc: "At Telesat, I worked on internal tools to help facilitate the operations of Lightspeed LEO satellite network. I championed a POC solution to using JavaScript, Node.js, Express and Webex API to reduce call center queues by 15%. I developed an emailing service using C# to enhance error detection and logging. Lastly, I maintained several SQL Server databases, wrote new SQL stored procedures and created automated scripts to manage server environments and configurations.",
+        desc: "At Telesat, I worked on internal tools to help facilitate the operations of Lightspeed LEO satellite network. I championed a POC solution using JavaScript, Node.js, Express and Webex API to reduce call center queue times by 15%. I developed an emailing service using C# to enhance error detection and logging. Lastly, I maintained several SQL Server databases, wrote new SQL stored procedures and created automated scripts to manage server environments and configurations.",
         icon: '/assets/telesat.svg',
     },
 ];
