@@ -4,7 +4,6 @@ import {Canvas} from '@react-three/fiber';
 import {useMediaQuery} from 'react-responsive';
 import {PerspectiveCamera} from '@react-three/drei';
 
-import EasterEgg from '../components/EasterEgg.jsx';
 import CanvasLoader from '../components/Loading.jsx';
 import HeroCamera from '../components/HeroCamera.jsx';
 
@@ -30,9 +29,6 @@ const Home = () => {
                         <HeroCamera isMobile={isMobile}>
                             <SpaceBoy scale={1.5} position={[0, -5.5, 0]} rotation={[0.1, 6.1, 0]}/>
                         </HeroCamera>
-                        <group>
-                            <EasterEgg position={[-5, 1, -2]}/>
-                        </group>
                         <ambientLight intensity={1}/>
                         <directionalLight position={[10, 10, 10]} intensity={0.5}/>
                     </Suspense>
