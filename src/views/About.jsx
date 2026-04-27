@@ -14,10 +14,10 @@ const About = () => {
                             <div>
                                 <p className="grid-headtext">Nice to Meet You!</p>
                                 <p className="grid-subtext">
-                                    My name is Allan Wang and I&apos;m a Software Engineer with over 2 years of
+                                    My name is Allan Wang and I&apos;m a Software Engineer with over 3 years of
                                     professional
                                     experience specializing in full-stack development. Currently, I am working on
-                                    innovative cybersecurity solutions at Trend Micro.
+                                    innovative observability solutions at Splunk.
                                     <br/>
                                     <br/>
                                     Prior to this, I graduated from Carleton University with a Bachelors of

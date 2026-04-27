@@ -23,11 +23,19 @@ export const navItems = [
 
 export const workExperience = [
     {
+        id: 0,
+        company: 'Splunk',
+        role: 'Software Engineer',
+        duration: 'Mar 2026 - Present',
+        desc: "At Splunk, I am currently working on new features to power Splunk Cloud Platform and Splunk Enterprise. I am using React and Typescript to support the ability to observe anything and everywhere using SPL2. Working on UI to enable connections, datasets, federated search and provide a centralized data management experience to global partners.",
+        icon: '/assets/splunk.svg',
+    },
+    {
         id: 1,
         company: 'Trend Micro',
         role: 'Software Engineer',
-        duration: 'May 2024 - Present',
-        desc: "At Trend Micro, I am currently adding new features to Trend Vision One™. I am using TypeScript and utilizing both React and Vue.js to create new reusable frontend components. Some interfaces I've implemented include user modals, advanced tables and custom notification alerts. I have also created backend report sharing services using Golang, Gin Framework, MongoDB and AWS services (SES, S3) to increase user engagement across several assessment sharing applications.",
+        duration: 'May 2024 - Feb 2026',
+        desc: "At Trend Micro, I am adding new features to Trend Vision One™. I am using TypeScript and utilizing both React and Vue.js to create new reusable frontend components. Some interfaces I've implemented include user modals, advanced tables and custom notification alerts. I have also created backend report sharing services using Golang, Gin Framework, MongoDB and AWS services (SES, S3) to increase user engagement across several assessment sharing applications.",
         icon: '/assets/trend.svg',
     },
     {
@@ -65,6 +73,36 @@ export const workExperience = [
 ];
 
 export const enterpriseProjects = [
+    {
+        title: 'Splunk Cloud Platform',
+        desc: 'Splunk Cloud Platform Search allows you to analyze, visualize and act on your data with a centralized data platform service. Search anything and turn your data into answers and insights. Powered by SPL2.',
+        subdesc: 'What I worked with: ',
+        href: 'https://www.splunk.com/en_us/products/splunk-cloud-platform.html',
+        logo: '/assets/proj-logo4.png',
+        logoStyle: {
+            backgroundColor: '#e67933',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        skills: [
+            {
+                id: 1,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 3,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 6,
+                name: 'Figma',
+                path: '/assets/figma.svg',
+            },
+        ],
+    },
     {
         title: 'Trend Vision One™',
         desc: 'Trend Vision One™ is a leading XDR cybersecurity platform that integrates security data from endpoints, servers, cloud workloads, and networks into a single, comprehensive view. I worked on key aspects of this platform, allowing organizations to quickly identify and respond to complex security threats - enabling businesses to stay ahead of evolving cyber threats.',
